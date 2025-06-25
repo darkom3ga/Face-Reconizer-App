@@ -47,6 +47,7 @@ dependencies {
 //    implementation("org.tensorflow:tensorflow-lite:2.13.0")
 //    implementation("org.tensorflow:tensorflow-lite-support:0.4.2")
 //    implementation("org.tensorflow:tensorflow-lite-gpu:2.13.0")
+    implementation("com.google.android.gms:play-services-vision:20.1.3")
     implementation("androidx.camera:camera-core:$cameraxVersion")
     implementation("androidx.camera:camera-camera2:$cameraxVersion")
     implementation("androidx.camera:camera-lifecycle:$cameraxVersion")

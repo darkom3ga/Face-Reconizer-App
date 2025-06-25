@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnFaceReg.setOnClickListener {
                 showNameIdDialog()
         }
+        binding.btnTakeAtt.setOnClickListener {
+            val intent = Intent(this, FaceRecognitionActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun showNameIdDialog() {
