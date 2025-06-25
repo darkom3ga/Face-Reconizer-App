@@ -16,7 +16,11 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    sourceSets {
+        named("main") {
+            assets.srcDirs("src/main/assets")
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
